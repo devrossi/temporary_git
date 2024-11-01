@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<keyboard version="1">
+    <commands>
+        <key command="PixelLab" shortcut="Ctrl+Space+P" />
+        <key command="PixelLab_Pose_Edit" shortcut="Ctrl+Space+E" />
+        <key command="PixelLab_Pose_Style" shortcut="Ctrl+Space+S" />
+        <key command="PixelLab_Pose_Character" shortcut="Ctrl+Space+C" />
+        <key command="PixelLab_Pose_Animation" shortcut="Ctrl+Space+A" />
+        <key command="PixelLab_Pose_Skeleton" shortcut="Ctrl+Space+Q" />
+        <key command="PixelLab_Pose_Tiles" shortcut="Ctrl+Space+T" />
+    </commands>
+</keyboard>

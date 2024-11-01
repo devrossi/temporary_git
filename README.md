@@ -1,1 +1,2 @@
-# temporary_git
+# PixelLabPlugin
+Asesprite plugin

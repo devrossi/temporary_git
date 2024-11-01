@@ -1,0 +1,172 @@
+{
+    "name": "pixellab",
+    "displayName": "Pixel Lab",
+    "description": "Generate animations from your sprite using the latest machine learning has to offer",
+    "version": "0.3.151",
+    "tier": 0,
+    "secret": "628ef699-695a-420a-8e02-81fb62cd7f49",
+    "author": {
+        "name": "Paul Lowenstrom",
+        "email": "paul.lowenstrom@gmail.com",
+        "url": "https://pixellab.ai"
+    },
+    "license": "Copyright (c) 2023 PixelLab",
+    "categories": [
+        "Scripts",
+        "Keys"
+    ],
+    "contributes": {
+        "scripts": [
+            {
+                "id": "plugin-menu",
+                "path": "./plugin-menu.lua"
+            },
+            {
+                "id": "generate-tiles",
+                "path": "./generate-tiles.lua"
+            },
+            {
+                "id": "generate-animations",
+                "path": "./generate-movement.lua"
+            },
+            {
+                "id": "generate-general-images",
+                "path": "./generate-general-images.lua"
+            },
+            {
+                "id": "generate-general-images-xl",
+                "path": "./generate-general-images-xl.lua"
+            },
+            {
+                "id": "generate-rotations",
+                "path": "./generate-rotations.lua"
+            },
+            {
+                "id": "generate-reshape",
+                "path": "./generate-reshape.lua"
+            },
+            {
+                "id": "generate-inpainting",
+                "path": "./generate-inpainting.lua"
+            },
+            {
+                "id": "generate-inpainting-map",
+                "path": "./generate-inpainting-map.lua"
+            },
+            {
+                "id": "generate-pose",
+                "path": "./generate-pose.lua"
+            },
+            {
+                "id": "generate-re-pose",
+                "path": "./generate-re-pose.lua"
+            },
+            {
+                "id": "generate-canny",
+                "path": "./generate-canny.lua"
+            },
+            {
+                "id": "update-plugin",
+                "path": "./update-plugin.lua"
+            },
+            {
+                "id": "get-image",
+                "path": "./get-image.lua"
+            },
+            {
+                "id": "websocket",
+                "path": "./websocket.lua"
+            },
+            {
+                "id": "prepare-for-generation",
+                "path": "./prepare-for-generation.lua"
+            },
+            {
+                "id": "create-json",
+                "path": "./create-json.lua"
+            },
+            {
+                "id": "display-images-in-dialog",
+                "path": "./display-images-in-dialog.lua"
+            },
+            {
+                "id": "generate-start",
+                "path": "./generate-start.lua"
+            },
+            {
+                "id": "dialog-settings",
+                "path": "./dialog-settings.lua"
+            },
+            {
+                "id": "dialog-settings-advanced",
+                "path": "./dialog-settings-advanced.lua"
+            },
+            {
+                "id": "draw-canny",
+                "path": "./draw-canny.lua"
+            },
+            {
+                "id": "generate-style",
+                "path": "./generate-style.lua"
+            },
+            {
+                "id": "generate-style-old",
+                "path": "./generate-style-old.lua"
+            },
+            {
+                "id": "generate-character",
+                "path": "./generate-character.lua"
+            },
+            {
+                "id": "generate-character-old",
+                "path": "./generate-character-old.lua"
+            },
+            {
+                "id": "generate-resize",
+                "path": "./generate-resize.lua"
+            },
+            {
+                "id": "generate-rotate-single",
+                "path": "./generate-rotate-single.lua"
+            },
+            {
+                "id": "generate-tiles-style",
+                "path": "./generate-tiles-style.lua"
+            },
+            {
+                "id": "generate-pose-animation",
+                "path": "./generate-pose-animation.lua"
+            },
+            {
+                "id": "handle-pose",
+                "path": "./handle-pose.lua"
+            },
+            {
+                "id": "pose-references",
+                "path": "./pose-references.lua"
+            },
+            {
+                "id": "dialog-skeleton-preview",
+                "path": "./dialog-skeleton-preview.lua"
+            },
+            {
+                "id": "skeleton",
+                "path": "./skeleton.lua"
+            },
+            {
+                "id": "request-history",
+                "path": "./request-history.lua"
+            },
+            {
+                "id": "dialog-settings-skeleton",
+                "path": "./dialog-settings-skeleton.lua"
+            }
+        ],
+        "keys": [
+            {
+                "id": "pixellab-keybindings",
+                "path": "./pixellab-keybindings.aseprite-keys"
+            }
+        ]
+    }
+}
